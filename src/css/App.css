@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+.app {
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.titleContainer {
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+.buttonContainer {
+  margin: 10px;
+}
+.muibutton {
+  margin: 20px;
+  height: 50px;
+  width: 200px;
+  padding: 20px;
+}
+.countAndquestion {
+  font-size: 4vh;
+  display: flex;
+  align-self: center;
+  font-weight: bolder;
+}
+li {
+  list-style-type: none;
+}
+.showDisp {
+  align-self: center;
+}
+.rulecont {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.ruleList {
+  background-color: #db4437;
+  padding: 15px;
+  font-weight: bolder;
+  color: #ffff;
+}
+.closebtn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+.content {
+  margin-top: 2vh;
+}
+.endGameHeader {
+  font-size: 3rem;
+}
+.amountCorrect {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 5vh;
+  margin-bottom: 3rem;
+}
+.tryAgain {
+  width: 33%;
+  font-size: 1.5rem;
+}
+p {
+  font-size: 2rem;
+}
+/*---------------- media for phone-----------------------------*/
+@media screen and (max-width: 500px) {
+  .countAndquestion {
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+  }
+  .ruleList {
+    background-color: #db4437;
+    padding: 15px;
+    color: #ffff;
+  }
+  .titleContainer {
+    font-size: 2rem;
+  }
+  .currentQuestion {
+    margin-right: 10px;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  .QuestWithVar {
+    padding-bottom: 13px;
+  }
+}
+
+/*-----------medi 4 tablet --------------*/
+@media screen and (max-width: 1040px) {
+  .countAndquestion {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
+/*-----------medi 4 tablet --------------*/
+@media screen and (max-width: 320px) {
+  .countAndquestion {
+    font-size: 2vh;
+    margin: 10px;
+    font-weight: bolder;
+  }
+  .ruleList {
+    background-color: #db4437;
+    padding: 15px;
+    color: #ffff;
+  }
+  .titleContainer {
+    font-size: 2rem;
+  }
+  .currentQuestion {
+    margin-right: 10px;
+  }
+}
